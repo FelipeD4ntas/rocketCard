@@ -1,0 +1,25 @@
+.box-propriedades {
+  width: max-content;
+  padding: 30px;
+  border-radius: 25%;
+  background-image: linear-gradient(to bottom, #000000e3 10%, #42414475 50%, #33313575 70%);
+  position: absolute;
+  top: 60%;
+}
+
+.propriedade {
+  color: var(--text);
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.propriedade img {
+  margin-right: 10px;
+}
+
+@media (max-width: 500px) {
+  .box-propriedades {
+    position: absolute;
+    top: 40%;
+  }
+}
