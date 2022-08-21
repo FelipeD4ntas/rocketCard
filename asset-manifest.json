@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rocketCard/static/css/main.4c7d4942.css",
-    "main.js": "/rocketCard/static/js/main.92da095a.js",
+    "main.css": "/rocketCard/static/css/main.75cbc3b4.css",
+    "main.js": "/rocketCard/static/js/main.f29cc41a.js",
     "static/js/498.41848502.chunk.js": "/rocketCard/static/js/498.41848502.chunk.js",
     "static/js/703.80ec9600.chunk.js": "/rocketCard/static/js/703.80ec9600.chunk.js",
     "static/js/612.a63fd7c4.chunk.js": "/rocketCard/static/js/612.a63fd7c4.chunk.js",
     "static/js/787.da5f820d.chunk.js": "/rocketCard/static/js/787.da5f820d.chunk.js",
     "static/media/perfilPlaceholder.png": "/rocketCard/static/media/perfilPlaceholder.4b39480e0866bd2007d5.png",
     "index.html": "/rocketCard/index.html",
-    "main.4c7d4942.css.map": "/rocketCard/static/css/main.4c7d4942.css.map",
-    "main.92da095a.js.map": "/rocketCard/static/js/main.92da095a.js.map",
+    "main.75cbc3b4.css.map": "/rocketCard/static/css/main.75cbc3b4.css.map",
+    "main.f29cc41a.js.map": "/rocketCard/static/js/main.f29cc41a.js.map",
     "498.41848502.chunk.js.map": "/rocketCard/static/js/498.41848502.chunk.js.map",
     "703.80ec9600.chunk.js.map": "/rocketCard/static/js/703.80ec9600.chunk.js.map",
     "612.a63fd7c4.chunk.js.map": "/rocketCard/static/js/612.a63fd7c4.chunk.js.map",
     "787.da5f820d.chunk.js.map": "/rocketCard/static/js/787.da5f820d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c7d4942.css",
-    "static/js/main.92da095a.js"
+    "static/css/main.75cbc3b4.css",
+    "static/js/main.f29cc41a.js"
   ]
 }
