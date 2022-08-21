@@ -1,9 +1,9 @@
 import React, {useEffect, useRef} from 'react';
 import { fetchDadosUsuario } from '../../services/request';
-import iconeSeguidores from '../../assets/followers.svg';
-import iconeSeguindo from '../../assets/following.svg';
-import iconeRepositorios from '../../assets/repository.svg';
-import iconeLocalizacao from '../../assets/location.svg';
+import iconeSeguidores from '../../assets/followers.png';
+import iconeSeguindo from '../../assets/following.png';
+import iconeRepositorios from '../../assets/repository.png';
+import iconeLocalizacao from '../../assets/location.png';
 import './style.css';
 
 function Propriedades(dadosUser) {

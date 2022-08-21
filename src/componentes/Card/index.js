@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import BoxFoto from '../BoxFoto';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import Propriedades from '../Propriedades';
 import './style.css';
 

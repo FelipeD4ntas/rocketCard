@@ -7,6 +7,10 @@
   font-family: 'Prompt', sans-serif;
 }
 
+img {
+  object-fit: contain;
+}
+
 :root {
   --bg: #000000;
   --bg-card: #0E1218;
