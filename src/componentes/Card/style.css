@@ -84,14 +84,21 @@
     display: none;
   }
 
+  .box-logo {
+    position: relative;
+    bottom: -170%;
+    right: -65%;
+  }
+
   .box-logo h1 {
     color: var(--text);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: normal;
   }
   
   .box-logo img {
     width: 40px;
     height: 40px;
+    display: none;
   }
 }
