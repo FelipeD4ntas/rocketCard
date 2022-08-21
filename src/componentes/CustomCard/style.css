@@ -54,6 +54,10 @@
   margin-bottom: 35px;
 }
 
+.botao-baixar-card {
+  margin-bottom: 35px;
+}
+
 .customizar-card p {
   color: var(--text);
   font-size: 1.9rem;
