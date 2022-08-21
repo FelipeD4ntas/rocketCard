@@ -20,7 +20,7 @@
 @media (max-width: 500px) {
   .box-propriedades {
     padding: 15px;
-    position: absolute;
-    top: 30%;
+    position: relative;
+    top: 5%;
   }
 }
