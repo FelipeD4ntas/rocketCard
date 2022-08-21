@@ -6,7 +6,7 @@ import './style.css';
 
 function Card(nomeUser) {
   const nomeUsuario = document.querySelector('[data-js="nome"]');
-
+  
   useEffect(() => {
     if (typeof nomeUser === 'string') {
       nomeUsuario.textContent = nomeUser;
