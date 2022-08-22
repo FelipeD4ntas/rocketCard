@@ -63,9 +63,9 @@ function CustomCard() {
       let touchVertical = touch.clientY
      
       if(touchHorizontal < touchVertical) {
-          if(touchHorizontal < 0) {
+          if(touchHorizontal < 100) {
             molduraCard.style.left = '100%';
-          }
+          } 
       }
     }
 
