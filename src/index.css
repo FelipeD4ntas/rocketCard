@@ -28,6 +28,7 @@ html {
 body {
   font-size: 1.6rem;
   background: var(--bg-card);
+  overflow: hidden;
 }
 
 .corpo {
@@ -37,6 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 @media (max-width: 500px) {

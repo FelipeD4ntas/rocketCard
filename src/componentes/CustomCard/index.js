@@ -53,6 +53,12 @@ function CustomCard() {
   function obterNomeUsuario(event) {
     event.preventDefault();
     const nomeUsuarioFormatado = nomeUsuario.current.value.replace('@', '');
+    molduraCard.style.left = '0%';
+    molduraCard.addEventListener('touchmove', voltarPag);
+
+    function voltarPag() {
+      molduraCard.style.left = '100%';
+    }
 
     setPromessaNomeUser(fetchUser(nomeUsuarioFormatado));
     setPromessaDadosUser(fetchDadosUsuario(nomeUsuarioFormatado));
