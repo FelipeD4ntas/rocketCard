@@ -56,8 +56,17 @@ function CustomCard() {
     molduraCard.style.left = '0%';
     molduraCard.addEventListener('touchmove', voltarPag);
 
-    function voltarPag() {
-      molduraCard.style.left = '100%';
+    function voltarPag(event) {
+      event.preventDefault();
+      var touch = event.changedTouches[0];
+      let touchHorizontal = touch.clientX
+      let touchVertical = touch.clientY
+     
+      if(touchHorizontal < touchVertical) {
+          if(touchHorizontal < 0) {
+            molduraCard.style.left = '100%';
+          }
+      }
     }
 
     setPromessaNomeUser(fetchUser(nomeUsuarioFormatado));
