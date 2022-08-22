@@ -58,7 +58,7 @@ function CustomCard() {
 
     function voltarPag(event) {
       event.preventDefault();
-      var touch = event.changedTouches[0];
+      let touch = event.changedTouches[0];
       let touchHorizontal = touch.clientX
       let touchVertical = touch.clientY
      
